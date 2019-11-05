@@ -8,4 +8,5 @@ fn increase_by(mut val: u32, how_much: u32) {
 fn main() {
     let score = 2048;
     increase_by(score, 30);
+    println!("Score: {}", score);
 }

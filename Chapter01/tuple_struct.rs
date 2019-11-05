@@ -22,4 +22,5 @@ fn main() {
 
     // Can also ignore fields while destructuring
     let Color(r, _, b) = orange;
+    println!("R: {}, B: {}", r, b);
 }

@@ -3,5 +3,5 @@
 struct DummyStruct;
 
 fn main() {
-    let a = DummyStruct;
+    let _a = DummyStruct;
 }

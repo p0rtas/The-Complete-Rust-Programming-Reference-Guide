@@ -13,4 +13,5 @@ fn main() {
     for i in 0..=10 {
         print!("{},", i);
     }
+    println!();       // just a newline
 }
